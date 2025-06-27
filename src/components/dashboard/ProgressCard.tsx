@@ -10,12 +10,12 @@ interface ProgressCardProps {
 
 export const ProgressCard = ({ completedTasks, totalTasks, completionPercentage }: ProgressCardProps) => {
   return (
-    <Card className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white border-0">
+    <Card className="bg-gradient-to-r from-purple-400 to-violet-500 text-white border-0">
       <CardContent className="p-6">
         <div className="flex items-center justify-between">
           <div>
             <h3 className="text-xl font-semibold mb-2">Progresso do Dia</h3>
-            <p className="text-blue-100">
+            <p className="text-purple-100">
               {completedTasks} de {totalTasks} tarefas concluídas
             </p>
           </div>
