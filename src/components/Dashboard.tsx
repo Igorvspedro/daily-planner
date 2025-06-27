@@ -80,7 +80,7 @@ export const Dashboard = ({ user, onLogout }: DashboardProps) => {
   };
 
   const handleDragStart = (e: React.DragEvent, taskId: string) => {
-    setDraggedTask taskId);
+    setDraggedTask(taskId);
   };
 
   const handleDragOver = (e: React.DragEvent) => {
